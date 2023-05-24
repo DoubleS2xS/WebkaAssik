@@ -401,70 +401,39 @@
 
   <!-- client section -->
 
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          What Says Our Customers
-        </h2>
-      </div>
-      <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/Bekzat.jpeg" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Bekzat
-                </h5>
-                <p>
-                  Great location, great price, great helpful people! 
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/Isa.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Islambek
-                </h5>
-                <p>
-                  My world gym is a family that encourages, lifts up, teaches each other and is always welcoming new members to the family.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/vadim.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Vadim
-                </h5>
-                <p>
-                  It is a great gym that has an abundance of equipment, and very friendly staff. Also it is very affordable. Gyms like this are getting harder to find because less and less people are lifting weights these days.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="slideshow-container">
 
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/Bekzat.jpeg" style="width:100%">
+      <div class="text">Great gym, new machines are added all the time, very beautiful and modern.</div>
     </div>
-  </section>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/vadim.jpg" style="width:100%">
+      <div class="text">Very nice room! Friendly and qualified staff, reasonable prices. Always clean and new gyms🤩</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/Isa.jpg" style="width:100%">
+      <div class="text">Good gym, great selection of equipment and great trainers</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
 
   <!-- end client section -->
 
@@ -669,6 +638,9 @@
         .classList.toggle("menu_btn-style");
     }
   </script>
+   
+   
+  
 </body>
 
 </html>
